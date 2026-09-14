@@ -14,13 +14,12 @@ class starter {
 		count = 589;
 		System.out.println("count: " + count);
 
-		int sum = 0;
+		double sum = 0.03;
 		double num1 = 12.2;
 		double num2 = 14.3;
-		sum = num1 + num2;
-		
-		System.out.println("sum: " + sum);
+		sum = (double)(num1 + num2);
 
-	}
-		System.out.println("I now have 0 errors!!!");		
+		System.out.println("sum: " + sum);
+		System.out.println("I now have 0 errors!!!");
+	} 	
 }
