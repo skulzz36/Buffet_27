@@ -9,10 +9,10 @@ class LectureInput{
     System.out.println("Here is a list of all the items on the menu:");
     
     System.out.println("1. 6 piece King Crab Legs - $" + item1price);
-    double item1price = 179.99;
+    double item1price = 189.99;
 
     System.out.println("2. 2 piece Lobster tails (made by Gordon Ramsay) - $" + item2price);
-    double item2price = 169.99;
+    double item2price = 179.99;
 
     System.out.println("3. honey walnut shrimp - $" + item3price);
     double item3price = 29.99;
@@ -23,10 +23,10 @@ class LectureInput{
     System.out.println("5. 10 piece Sushi - $" + item5price);
     double item5price = 35.99;
 
-    System.out.println("6. 3 pound Squid - $" + item6price);
-    double item6price = 89.99;
+    System.out.println("6. 6 pound Squid - $" + item6price);
+    double item6price = 199.99;
 
-    System.out.println("7. 6 piece muscles - $" + item7price);
+    System.out.println("7. 6 piece muscle clams - $" + item7price);
     double item7price = 19.99;
 
 
@@ -44,4 +44,15 @@ class LectureInput{
     double item5Total = item5Amt * item5price;
     double item6Total = item6Amt * item6price;
     double item7Total = item7Amt * item7price;
+    double grandTotal = item1Total + item2Total + item3Total + item4Total + item5Total + item6Total + item7Total;
+    System.out.println("Your total is: $" + grandTotal);
+    double tip = sc.nextDouble();
+
+
+    System.out.println("Your tip is: $" + tip);
+    tip = (tip / 100) * grandTotal;
+    double totalWithTip = grandTotal + tip;
+    System.out.println("Your total with tip is: $" + totalWithTip);
+
+    System.out.println ("Tip and total is $" + totalWithTip);
 }
