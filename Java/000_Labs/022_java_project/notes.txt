@@ -1,0 +1,20 @@
+Submit a .java file to Google Classroom with a program of the following:
+
+Goal: Create a digital slot machine!
+- Users start with 100 virtual dollars
+- Continuously ask for a wager
+- The slot machine will roll 3 random integers. 
+       - Two numbers are the same, it doubles your money wagered.
+       - Three numbers are the same, it’s a jackpot! Triple the money wagered.
+       - None are the same, you lose the money.
+- Ask the user each time if they want to play the game
+       - If “Yes”, “yes”, “Y”, or “y”
+             - The game continues.
+       - If “No”, “no”, “N”, or “n”
+             - End the game immediately, show the user how much money is left.
+- When the user runs out of money
+       - The game ends
+
+An example of how the program should run is on the GitHub repository under "100_HW/HW5_Slots". Run the program for the output I'm looking for :D   
+
+Extra Credit: Make this digital slot machine a method that your main method can call. If you’re ambitious, you can make Blackjack or other games for the user to play. :) Good luck!
