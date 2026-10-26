@@ -8,22 +8,22 @@ import java.util.Scanner;
 class starter {
 	public static void main(String args[]) {
 		// Your code goes below here
-		Scnaner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
-		int number = (int)(math.random()* 1000) +1;
+		int number = (int)(Math.random()* 1000) +1;
 		int randomNum = 0;
 
-		system.out.println("Welcome to the guessing game!");
+		System.out.println("Welcome to the guessing game!");
 
 		while(randomNum != number){
 
 		  System.out.println("please guess a number:");
-		  randomNum = nextInt();
+		  randomNum = sc.nextInt();
           
 		  if (randomNum > number) {
             System.out.println("too high!");
 		  }else if (randomNum < number){
-			System.out.println("too low gng");
+			System.out.println("too low.");
 		  } else {
 			System.out.println("hooray you win!");
 		  }
