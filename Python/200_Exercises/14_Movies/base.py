@@ -1,0 +1,22 @@
+print( "'IS THAT YOU JOHN WAYNE?  IS THIS ME?'")
+
+
+print("The Marines are looking for a few good men... ")
+
+print("Barbershop.")
+print("A row of barbers with electric")
+print("clippers work ankle deep in hair as they give the ")
+print("young Marine recruits a 30-second, skin-head ")
+print("haircut.  We see Joker, Cowboy and Leonard.")
+print("A drill instructor shouts at the line of")
+print("waiting recruits: 'You are about to receive your") 
+print("first Marine Corps recruit haircut.  You will be'") 
+print("shaved completely bald.")
+print("'If you have a mole, bump, scar or anything ")
+print("protruding from your head, and by protruding ")
+print("anything sticking up out of your head, the ")
+print("minute you sit down in that chair place your") 
+print("finger on whatever if is on your head, and let the")
+print("barber know whatever is there, verbally, by ")
+print("saying, 'Sir, the Private has a mole on his")
+print("head'.")
